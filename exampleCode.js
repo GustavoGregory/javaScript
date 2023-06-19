@@ -8,14 +8,17 @@ const mensagemDeBoasVindas1 = "Bem vindo, torcedor Tricolor!";
 const mensagemDeBoasVindas2 = "Bem vindo, torcedor Rubro-Negro!";
 const mensagemDeBoasVindas3 = "Bem vindo, Amante do esporte!";
 
-if(usuario.time === "Fluminense"){
+//If = condição principal
+if(usuario.time === "Fluminense"){                    
     console.log(mensagemDeBoasVindas1);
 }
 
-else if(usuario.time === "Flamengo"){   
+//Else if = condição secundária que ira executar caso condições anteriores não satisfazem
+else if(usuario.time === "Flamengo"){                  
     console.log(mensagemDeBoasVindas2);
 }
 
+//Else = executa caso nenhuma condição satisfaz
 else{
     console.log(mensagemDeBoasVindas3);
 }
